@@ -1,0 +1,29 @@
+{
+  "logging": {
+    "appenders": {
+      "file": {
+        "type": "dateFile",
+        "filename": "logs/upgrade-service.error.log",
+        "keepFileExt": true
+      },
+      "stdout": {
+        "type": "stdout"
+      }
+    },
+    "categories": {
+      "default": {
+        "appenders": [
+          "stdout"
+        ],
+        "level": "all"
+      },
+      "error": {
+        "appenders": [
+          "stdout",
+          "file"
+        ],
+        "level": "error"
+      }
+    }
+  }
+}
