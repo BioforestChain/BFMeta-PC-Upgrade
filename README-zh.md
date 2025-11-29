@@ -1,4 +1,5 @@
 # BFMeta-PC-Upgrade（中文）
+英文版请参见 [README](README.md)。
 
 ## 简介
 基于 LoopBack 4 + Socket.IO 的升级服务，为 BFMeta PC 客户端提供主动升级、版本检查与通知；支持容器化部署。

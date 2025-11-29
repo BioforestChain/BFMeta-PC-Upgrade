@@ -1,4 +1,5 @@
 # BFMeta-PC-Upgrade (English)
+For Chinese version please see [README-zh](README-zh.md).
 
 ## Overview
 LoopBack 4 + Socket.IO service for proactive upgrades of BFMeta PC clients: version checks, package delivery, and notifications; Docker-friendly.
